@@ -94,6 +94,28 @@ footer {
 }
 
 /*nosotros.html*/
+.col-lg-4 {
+  padding: 10px;
+}
+
+/* compra.html*/
+#botoncomprar {
+  background-position: center;
+  background-color: black;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+#botoncomprar a {
+  font-weight: bold;
+  color: white;
+}
+
+#botoncomprar:hover {
+  font-size: 30px;
+}
+
+/*compra.htmlfin*/
 /*media queries*/
 @media only screen and (min-width: 480px) {
   .banner {
