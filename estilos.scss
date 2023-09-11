@@ -31,6 +31,17 @@ header{
     background-image: url(./images/banner.png.jpg);
     background-size: cover;
 }
+.box{
+    
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-style:italic;
+    .boxmessage{
+        font-size: 10px;
+    }
+    
+}
 /*secciones*/
 h2{
     text-align: center;
@@ -139,7 +150,7 @@ font-size: 30px;
 /*media queries*/
 @media only screen and (min-width:480px){
 .banner{
-    height: 300px;
+    height: 250px;
 }
 #galeria img{
     width: 100%;
@@ -160,6 +171,16 @@ font-size: 30px;
     height: 400px;
     background-size: cover;
     padding: 20px;
+}
+.box{
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-style:italic;
+    .boxmessage{
+        font-size: 10px;
+    }
+    
 }
 }
 
@@ -189,7 +210,7 @@ font-size: 30px;
     #comprapage {
         display: flex;
         .container{
-            padding-left: 90px;
+        padding-left: 90px;
         }
         
         
