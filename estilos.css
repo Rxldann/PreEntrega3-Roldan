@@ -27,7 +27,7 @@ header nav {
 .banner {
   width: 100%;
   height: 180px;
-  background-image: url(/images/banner.png.jpg);
+  background-image: url(./images/banner.png.jpg);
   background-size: cover;
 }
 
@@ -124,6 +124,17 @@ footer {
 }
 
 /*compra.htmlfin*/
+/*guia.html*/
+.guia {
+  text-align: center;
+}
+.guia img {
+  background-position: center;
+  height: 550px;
+  background-size: cover;
+}
+
+/*guia.html fin*/
 /*media queries*/
 @media only screen and (min-width: 480px) {
   .banner {
